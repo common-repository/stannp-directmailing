@@ -1,0 +1,158 @@
+.stannp-setup p{
+    color: #075d8d;
+}
+
+.stannp-setup h1 {
+    color: #ffba39;
+}
+
+.stannp-setup a {
+    color: #ffba39!important;;
+}
+
+.stannp-setup-dropdown{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 5px;
+    border-color: #CCCCCC;
+    background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 97% 3px;
+    height: 40px;
+    overflow: hidden;
+    width: 99%;
+    padding-left: 12px;
+    color: #075d8d;
+    font-size: inherit;
+    display: block;
+    margin: 5px 0;
+}
+
+.stannp-setup-label {
+    margin-bottom: 5px;
+    color: #075d8d;
+    font-size: 1em;
+}
+
+.stannp-account-yes {
+    display: none;
+}
+
+.stannp-account-no {
+    display: none;
+    color: #075d8d;
+    font: inherit;
+}
+
+.stannp-login-step {
+    color: #075d8d;
+}
+
+.stannp-login-step .terms, #stannp-account-no-form .terms {
+    font-size: 0.8em;
+}
+
+.stannp-login-form{
+    font-size: 1em;
+}
+
+.stannp-account-no input, .stannp-login-form input, .stannp-setup-campaign-form input{
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    border-color: #ccc;
+    resize: vertical;
+    margin-bottom: 5px;
+    color: #075d8d;
+    font-size: 1em;
+}
+
+.wc-stannp-return-to-dashboard {
+    font-size: .85em;
+    color: #b5b5b5;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+/* setup steps */
+.wc-stannp-setup-steps {
+    padding: 0 0 24px;
+    margin: 0;
+    list-style: none outside;
+    overflow: hidden;
+    color: #ccc;
+    width: 100%;
+    display: inline-flex;
+}
+.wc-stannp-setup-steps li {
+    width: 100%;
+    float: left;
+    padding: 0 0 0.8em;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    border-bottom: 4px solid #ccc;
+    line-height: 1.4em;
+}
+.wc-stannp-setup-steps li::before {
+    content: '';
+    border: 4px solid #ccc;
+    border-radius: 100%;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -6px;
+    margin-bottom: -8px;
+    background: #fff;
+}
+.wc-stannp-setup-steps li.active {
+    border-color: #057FC0;
+    color: #057FC0;
+}
+.wc-stannp-setup-steps li.active::before {
+     border-color: #057FC0;
+}
+.wc-stannp-setup-steps li.done {
+    border-color: #057FC0;
+    color: #057FC0;
+}
+.wc-stannp-setup-steps li.active::before {
+     border-color: #057FC0;
+     background: #057FC0;
+}
+table.stannp-group-stats {
+    border: 1px #DFDFDF solid;
+    /*width: 50%;*/
+    margin: auto;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+}
+
+.stannp-group-stats th{
+    text-align: center;
+    border-bottom: 1px #DFDFDF solid;
+    background-color: #F7F7F7;
+    color: #007EBD;
+    padding: 10px 0;
+}
+
+.stannp-group-stats td {
+    padding: 5px 20px;
+}
+
+.stannp-error-message {
+    font-size: smaller;
+    background: #F1F1F1;
+}
+
+.stannp-error-message p {
+    color: red;
+    /*font-size: smaller;*/
+    padding-left: 10px;
+}
+/* setup Steps end */
+

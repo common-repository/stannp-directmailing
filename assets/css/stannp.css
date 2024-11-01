@@ -1,0 +1,52 @@
+#stannp-setup-message {
+    overflow: hidden;
+    position: relative;
+    border-left-color: #0085ba!important;
+}
+
+#stannp-setup-message .button-primary {
+    background-color: #0085ba!important;
+    box-shadow: 0 2px 0 #006799;
+}
+
+a.button-primary {
+    color: #ffffff !important;
+}
+
+#stannp-setup-message p {
+    font-size: larger;
+}
+
+a.stannp-giant-button {
+    background-color: #0085ba !important;
+    box-shadow: 0 2px 0 #006799;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+#stannp-setup-message .submit {
+    margin: 30px 0;
+}
+
+a.stannp-giant-button {
+    font-size: larger;
+}
+
+#stannp-setup-message {
+    position: relative;
+}
+
+#stannp-setup-message img {
+    position: absolute;
+    top: 2em;
+    right: 3em;
+}
+
+#stannp-setup-message .subtext-image{
+    position: absolute;
+    top: 8em;
+    right: 3em;
+    width: 500px;
+    height: auto;
+}
